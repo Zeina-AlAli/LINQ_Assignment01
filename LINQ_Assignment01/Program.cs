@@ -44,6 +44,17 @@ namespace LINQ
 
             #endregion
 
+            #region Q4 : Condiments Peeoducts in Stock
+
+            //var CondimentsInStock = ProductList.Where(P => P.Category == "Spices & Condiments" && P.UnitsInStock > 0)
+            //                                   .Select(P => new { P.ProductName, P.UnitsInStock });
+
+            //foreach (var product in CondimentsInStock)
+            //{
+            //    Console.WriteLine($"Product Name: {product.ProductName}  |  Units in Stock: {product.UnitsInStock}");
+            //}
+            #endregion
+
         }
-    }
+    } 
 }
