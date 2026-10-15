@@ -32,6 +32,18 @@ namespace LINQ
             //}
             #endregion
 
+            #region Q3 : Get Price between 10 and 30
+
+            //var ProductPrices = ProductList.Where(P=> P.UnitPrice >=10 && P.UnitPrice <= 30)
+            //                        .Select(P => new { P.ProductName, P.UnitPrice });
+
+            //foreach (var product in ProductPrices)
+            //{
+            //    Console.WriteLine($"{product.ProductName} - ${product.UnitPrice:F2}");
+            //}
+
+            #endregion
+
         }
     }
 }
