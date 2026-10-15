@@ -69,6 +69,21 @@ namespace LINQ
 
             #endregion
 
+            #region Q6 : Get product with its Position
+            //var ProductPosition = ProductList.Select((P, I) => new
+            //{
+            //    P.ProductName,
+            //    Position = I + 1
+            //});
+
+            //foreach(var product in ProductPosition)
+            //{
+            //    Console.Write($"{product.Position}. {product.ProductName}");
+            //    if (product.Position != ProductPosition.Count())
+            //        Console.Write(", ");
+            //}
+            #endregion
+
         }
     } 
 }
