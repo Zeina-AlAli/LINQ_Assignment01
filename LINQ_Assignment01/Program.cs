@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LINQ.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using static LINQ.DataSources.Source;
@@ -20,6 +21,15 @@ namespace LINQ
             //    Console.WriteLine($"Product Name: {product.ProductName}   |   Unit Price: {product.UnitPrice}"); // Executed here
             //}
 
+            #endregion
+
+            #region Q2 : Get Products name only
+            //var ProductNames = ProductList.Select(P => P.ProductName);
+            //Console.WriteLine("Products Name:\n");
+            //foreach (var product in ProductNames)
+            //{
+            //    Console.WriteLine($"{product}");
+            //}
             #endregion
 
         }
