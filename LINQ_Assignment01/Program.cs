@@ -55,6 +55,20 @@ namespace LINQ
             //}
             #endregion
 
+            #region Q5 : New Anonymous Type with 3 Properties
+
+            //var Products = ProductList.Select(P=>new { 
+            //    P.ProductName,
+            //    P.UnitPrice,
+            //    StockStatus = P.UnitsInStock > 0 ? "Available" : "Out Of Stock"});
+
+            //foreach (var product in Products)
+            //{
+            //    Console.WriteLine($"{product.ProductName}  -  ${product.UnitPrice}  -  {product.StockStatus}");
+            //}
+
+            #endregion
+
         }
     } 
 }
